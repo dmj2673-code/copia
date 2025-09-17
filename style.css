@@ -1,0 +1,62 @@
+.credencial {
+  width: 540px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.marca-agua {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.15;
+  pointer-events: none;
+  user-select: none;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.marca-agua img {
+  width: 100%;
+  height: auto;
+}
+
+.header-fondo {
+  background: linear-gradient(90deg, #6c757d, #343a40);
+  color: white;
+}
+
+
+.footer-fondo {
+  background: linear-gradient(90deg, #343a40, #6c757d);
+  color: white;
+}
+
+.foto {
+  width: 120px;
+  height: 150px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.firma-img {
+  width: 130px;
+  height: 50px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.firma-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
